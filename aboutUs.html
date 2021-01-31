@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!--untuk mendeklarasi tipe dokumen html-->
+<html>
+<!--untuk menyatakan suatu dokumen html-->
+
+<head>
+	<!--untuk memberikan informasi mengenai dokumen html-->
+	<meta charset="UTF-8">
+	<meta content="AboutUs" name="description" />
+	<meta content="Peduli Duafa" name="keyword">
+	<title>About Us - Peduli Duafa</title>
+	<!--untuk memberikan informasi judul html-->
+	<link rel=stylesheet href="peduliDuafa.css" type="text/css">
+	<!--untuk memberikan informasi css/style html-->
+	<link rel="icon" href="images/icon.png" type="image/png">
+	<!--untuk memberikan informasi css/style html-->
+</head>
+<!--penutup head-->
+
+<body>
+	<!--untuk menyimpan informasi/data yang akan ditampilkan-->
+	<div class="kotakSlide">
+		<!--menampung beberapa elemen menjadi satu dengan memanggil class kotakSlide ditujukan pada css-->
+		<div id="sliderUtama">
+			<!--menampung beberapa elemen menjadi satu dengan memanggil class sliderUtama ditujukan pada css-->
+			<!--Setelah itu dibungkus lagi dengan syntax figure-->
+			<figure>
+				<!--merepresentasikan fitur gambar-->
+				<!--Taruh 5 Gambar Disini !!! Harus 5 Karena CSS Mengatur Slideshow 5 gambar-->
+				<img src="images/j1.jpg" alt="pic">
+				<!--gambar untuk slide pertama-->
+				<img src="images/j2.jpg" alt="pic">
+				<!--gambar untuk slide kedua-->
+				<img src="images/j3.jpg" alt="pic">
+				<!--gambar untuk slide ketiga-->
+				<img src="images/j4.jpg" alt="pic">
+				<!--gambar untuk slide keempat-->
+				<img src="images/j5.jpg" alt="pic">
+				<!--gambar untuk slide kelima-->
+			</figure>
+			<!--penutup figure-->
+		</div>
+		<!--penutup div.sliderUtama-->
+	</div>
+	<!--penutup div.kotakSlide-->
+
+	<script type="text/javascript" src="peduliDuafa.JS"> //merujuk file script eksternal
+	</script>
+	<!--penutup script-->
+
+
+	<div class="menuBawah">
+		<!--menampung beberapa elemen menjadi satu dengan memanggil class menuBawah ditujukan pada css-->
+		<a href="index.html"><img class="gbrMenu" src="images/home.png" alt="pic" title="Home"></a>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		<!--mendefinisikan sebuah hyperlink, yang akan mengakses pada link peduliDuafa.html-->
+		<a href="konfDonasi.html"> <img class="gbrMenu" src="images/confirmation.png" alt="pic"
+				title="Konfirmasi Donasi">
+		</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		<!--mendefinisikan sebuah hyperlink, yang akan mengakses pada link peduliDuafa.html-->
+		<a href="aboutUs.html"><img class="gbrMenu" src="images/about.png" alt="pic" title="Tentang Web Ini"> </a>
+		<!--mendefinisikan sebuah hyperlink, yang akan mengakses pada link peduliDuafa.html-->
+	</div>
+	<!--penutup div.menuBawah-->
+
+	<div id="panel">
+		<!--tag pembuka kotak feedback-->
+		<h3>Feedback</h3>
+		<!--digunakan untuk membuat judul pada kotak feedback-->
+		<input type="text" id="nm" name="nm" placeholder="Nama" />
+		<!--digunakan untuk menunjukkan sebuah inputan (masukkan) dalam bentuk kotak yang dapat 
+			diedit/diketik untuk diisi data tertentu, digunakan untuk menginputkan nama-->
+		<input type="text" id="eml" name="eml" placeholder="Email" />
+		<!--digunakan untuk menunjukkan sebuah inputan (masukkan) dalam bentuk kotak yang dapat 
+			diedit/diketik untuk diisi data tertentu, digunakan untuk menginputkan email-->
+		<textarea id="pesan" name="pesan" cols="14" rows="2" placeholder="Pesan"></textarea>
+		<!--digunakan untuk membuat kolom pesan-->
+		<button type="submit">Clear</button>
+		<!--tombol yang dapat diklik untuk menjalankan tindakan tertentu, yaitu melakukan hapus isi kolom-->
+		<button type="submit">Send</button>
+		<!--tombol yang dapat diklik untuk menjalankan tindakan tertentu, yaitu melakukan submit-->
+	</div>
+	<!--tag penutug kotak feedback-->
+	<a href="javascript:animateMe();" id="slideSamping">&raquo;</a>
+	<!--tombol untuk memasukkan dan mengeluarkan kotak feedback-->
+
+
+
+	<div class="sidebar">
+		<!--menampung beberapa elemen menjadi satu dengan memanggil class sideBar ditujukan pada css-->
+		<div class="kotakSide">
+			<!--menampung beberapa elemen menjadi satu dengan memanggil class kotakSide ditujukan pada css-->
+			<div class="judulSide">Login
+				<!--menampung beberapa elemen menjadi satu dengan memanggil class judulSide ditujukan pada css-->
+			</div>
+			<!--penutup div.judulSide-->
+			<form>
+				<!-- digunakan untuk memarkup sebuah form dan elemen pendukungnya-->
+				<div class="tombol">
+					<!--menampung beberapa elemen menjadi satu dengan memanggil class tombol ditujukan pada css-->
+					<input type="text" id="email" name="email" placeholder="Email" />
+					<!--digunakan untuk menunjukkan sebuah inputan (masukkan) dalam bentuk kotak yang dapat 
+						diedit/diketik untuk diisi data tertentu, digunakan untuk menginputkan email-->
+					<input type="text" id="password" name="password" placeholder="Password" />
+					<!--digunakan untuk menunjukkan sebuah inputan (masukkan) dalam bentuk kotak yang dapat 
+						diedit/diketik untuk diisi data tertentu, digunakan untuk menginputkan password-->
+					<button type="submit">Login</button>
+					<!--tombol yang dapat diklik untuk menjalankan tindakan tertentu, yaitu melakukan submit-->
+					<button type="submit">Sign up</button>
+					<!--tombol yang dapat diklik untuk menjalankan tindakan tertentu, yaitu melakukan submit-->
+				</div>
+				<!--penutup div.tombol-->
+			</form>
+			<!--penutup form-->
+		</div>
+		<!--penutup div.kotakSide-->
+		<div class="kotakSideSlide">
+			<!--menampung beberapa elemen menjadi satu dengan memanggil class kotakSideSlide ditujukan pada css-->
+			<div class="judulSideSlide">Our photos galery
+				<!--menampung beberapa elemen menjadi satu dengan memanggil class judulSideSlide ditujukan pada css-->
+			</div>
+			<!--penutup div.judulSideSlide-->
+			<!--Membuat Wadah Dengan Div id=slider -->
+			<div id="slider">
+				<!--Setelah itu dibungkus lagi dengan syntax figure-->
+				<figure>
+					<!--merepresentasikan fitur gambar-->
+					<!--Taruh 5 Gambar Disini !!! Harus 5 Karena CSS Mengatur Slideshow 5 gambar-->
+					<img src="images/s2.jpg" alt="pic">
+					<!--gambar untuk slide pertama-->
+					<img src="images/s3.jpg" alt="pic">
+					<!--gambar untuk slide kedua-->
+					<img src="images/s4.jpg" alt="pic">
+					<!--gambar untuk slide ketiga-->
+					<img src="images/s5.jpg" alt="pic">
+					<!--gambar untuk slide keempat-->
+					<img src="images/s6.jpg" alt="pic">
+					<!--gambar untuk slide kelima-->
+				</figure>
+				<!--penutup figure-->
+			</div>
+			<!--penutup div id.slider-->
+		</div>
+		<!--penutup div.kotakSideSlide-->
+		<div class="kotakSide">
+			<!--menampung beberapa elemen menjadi satu dengan memanggil class kotakSide ditujukan pada css-->
+			<div class="judulSide">Coorporate Partners
+				<!--menampung beberapa elemen menjadi satu dengan 
+				memanggil class judulSide ditujukan pada css,berfungsi untuk menampilakan gambar sponsor-->
+			</div>
+			<!--penutup div.judulSide-->
+			&nbsp;&nbsp;<img class="gbrPartner" src="./images/baznas.png" alt="pic" />
+			<!--gambar untuk sponsor pertama-->
+			&nbsp;&nbsp;<img class="gbrPartner" src="./images/act.jpg" alt="pic" /><br>
+			<!--gambar untuk sponsor kedua-->
+			&nbsp;&nbsp;<img class="gbrPartner" src="./images/rumahZakat.jpg" alt="pic" />
+			<!--gambar untuk sponsor ketiga-->
+			&nbsp;&nbsp;<img class="gbrPartner" src="./images/dompetDuafa.jpg" alt="pic" />
+			<!--gambar untuk sponsor keempat-->
+		</div>
+		<!--penutup div.kotakSide-->
+	</div>
+	<!--penutup div.sideBar-->
+
+
+	<div class="menuAtas" id="menuAtas">
+		<!--menampung beberapa elemen menjadi satu dengan memanggil class menuAtas dengan id menuAtas ditujukan pada css-->
+		<img class="judul" src="./images/nama.png" alt="pic">
+		<!--untuk merepresentasikan gambar judul-->
+		<a href="">Desclimer</a>
+		<!--mendefinisikan sebuah hyperlink, yang akan mengakses pada link kosongan pada menu Desclimer-->
+		<a href="">Sitemap</a>
+		<!--mendefinisikan sebuah hyperlink, yang akan mengakses pada link kosongan pada menu Sitemap-->
+		<a href="">Privacy Policy</a>
+		<!--mendefinisikan sebuah hyperlink, yang akan mengakses pada link kosongan pada menu Privacy Policy-->
+		<a href="">Contact us</a>
+		<!--mendefinisikan sebuah hyperlink, yang akan mengakses pada link kosongan pada menu Contact us-->
+		<a href="">About</a>
+		<!--mendefinisikan sebuah hyperlink, yang akan mengakses pada link kosongan pada menu About-->
+	</div>
+	<!--penutup div.menuAtas-->
+
+	<div id="warni" style="position:fixed; margin-top:-360px; height:7px; width:1000px; background-color:yellow;"></div>
+	<!--menampung beberapa elemen menjadi satu dengan memanggil class div dengan id warni ditujukan pada css-->
+	<!--penutup div dengan id warni-->
+
+
+	<div class="content">
+		<!--menampung beberapa elemen menjadi satu dengan memanggil class content ditujukan pada css-->
+		<fieldset>
+			<!--digunakan untuk merepresentasikan pengelompokkan daftar input pada sebuah form, form untuk profil kelas-->
+			<legend><b>Profil Kelas</b></legend>
+			<!--digunakan untuk memberi judul <fieldset> element, dengan format tulisan bold.
+				kemudian menutup format bold dan menutup format legend -->
+			Mata Kuliah &emsp; &emsp; &emsp; : Dasar Pemograman Web <br>
+			<!--isi dari fieldset, lalu br digunakan untuk membuat garis baru-->
+			Dosen Pengampu &emsp; : Noor Ifada, S.T., MISD <br>
+			<!--isi dari fieldset, lalu br digunakan untuk membuat garis baru-->
+			Kelas &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; : C <br>
+			<!--isi dari fieldset, lalu br digunakan untuk membuat garis baru-->
+			Kelompok &emsp;&emsp;&emsp;&emsp;&ensp;: Project_06
+			<!--isi dari fieldset, lalu br digunakan untuk membuat garis baru-->
+		</fieldset>
+		<!--penutup fieldset-->
+		<br>
+		<!--br digunakan untuk membuat garis baru-->
+		<fieldset>
+			<!--digunakan untuk merepresentasikan pengelompokkan daftar input pada sebuah form, form untuk pembagian tugas kelompok-->
+			<legend><b>Pembagian Tugas Kelompok</b></legend>
+			<!--digunakan untuk memberi judul <fieldset> element, dengan format tulisan bold.
+				kemudian menutup format bold dan menutup format legend -->
+			<table>
+				<!-- digunakan untuk membuat tabel, yang terdiri dari kolom dan baris-->
+				<tr>
+					<!--untuk membuat baris pertama dengan posisi di tengah-->
+					<th>NIM</th>
+					<!--untuk membuat kolom NIM-->
+					<th>Nama</th>
+					<!--untuk membuat kolom NIM-->
+					<th>Tugas</th>
+					<!--untuk membuat kolom tugas-->
+				</tr>
+				<!--penutup baris pertama-->
+				<tr>
+					<!--untuk membuat baris kedua-->
+					<th><img src="images/moham2.jpg" alt="pic"><br>150411100021</th>
+					<!--untuk membuat kolom dengan posisi ditengah, dan menambahkan gambar dan NIM-->
+					<th>Moh. Nikmat</th>
+					<td>
+						<ul>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Halaman Home</li>
+							<li>Validasi Email</li>
+							<li>Validasi Jenis Kelamin</li>
+							<li>Validasi Tanggal</li>
+							<li>Validasi Program</li>
+							<li>Validasi Bukti Transfer</li>
+							<li>Komentar JavaScript</li>
+						</ul>
+					</td>
+					<!--untuk membuat kolom untuk tugas masing2 anggota-->
+				</tr>
+				<!--penutup baris kedua-->
+				<tr>
+					<!--untuk membuat baris ketiga-->
+					<th><img src="images/syafa.jpg" alt="pic"><br>150411100022</th>
+					<th>Jauharotus Syafa'ah</th>
+					<!--untuk membuat kolom dengan posisi ditengah, dan menambahkan gambar dan NIM-->
+					<td>
+						<ul>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Halaman About Us</li>
+							<li>Validasi No. Telepon</li>
+							<li>Validasi Alamat</li>
+							<li>Validasi Tanggal</li>
+							<li>Validasi Bank Asal Transfer</li>
+							<li>Validasi Bank Tujuan</li>
+							<li>Komentar HTML</li>
+						</ul>
+					</td>
+					<!--untuk membuat kolom untuk tugas masing2 anggota-->
+				</tr>
+				<!--penutup baris ketiga-->
+				<tr>
+					<!--untuk membuat baris keempat-->
+					<th><img src="images/retno2.jpg" alt="pic"><br>150411100024</th>
+					<th>Retno Tri Lestari</th>
+					<!--untuk membuat kolom dengan posisi ditengah, dan menambahkan gambar dan NIM-->
+					<td>
+						<ul>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Halaman Confirmation</li>
+							<li>Validasi No. Rekening</li>
+							<li>Validasi Jumlah Donasi</li>
+							<li>Validasi Pembayaran Via</li>
+							<li>Validasi Nama</li>
+							<li>Komentar JavaScript dan CSS</li>
+						</ul>
+					</td>
+					<!--untuk membuat kolom untuk tugas masing2 anggota-->
+				</tr>
+				<!--penutup baris keempat-->
+			</table>
+			<!--penutup tabel-->
+		</fieldset>
+		<!--penutup fieldset untuk penugasan-->
+		<br>
+		<fieldset>
+			<legend><b>Referensi Gambar</b></legend>
+			<table>
+				<!-- digunakan untuk membuat tabel, yang terdiri dari kolom dan baris-->
+				<tr>
+					<!--untuk membuat baris pertama dengan posisi di tengah-->
+					<th>Header</th>
+					<!--untuk membuat kolom NIM-->
+					<th>Konten</th>
+					<!--untuk membuat kolom NIM-->
+					<th>Sidebar</th>
+					<!--untuk membuat kolom tugas-->
+				</tr>
+				<!--penutup baris pertama-->
+				<tr>
+					<td>
+						<a
+							href="http://www.mahasiswanews.com/2016/06/ikatan-mahasiswa-bantul-jual-bunga-demi.html?m=0"><i>http://www.mahasiswanews.com/2016/06/ikatan-mahasiswa-bantul-jual-bunga-demi.html?m=0</i></a><br>
+						<a
+							href="http://komunita.id/2016/10/19/jumat-sedekah-berbagi-rezeki-pada-kaum-dhuafa/"><i>http://komunita.id/2016/10/19/jumat-sedekah-berbagi-rezeki-pada-kaum-dhuafa/</i></a><br>
+					</td>
+					<td>
+						<a href="https://kitabisa.com/dhuafamandiri"><i>https://kitabisa.com/dhuafamandiri</i></a><br>
+						<a href="https://kitabisa.com/cintadhuafa"><i>https://kitabisa.com/cintadhuafa</i></a><br>
+						<a
+							href="http://regional.liputan6.com/read/2430489/jumat-sedekah-berbagi-rezeki-nasi-kotak-ke-kaum-duafa"><i>http://regional.liputan6.com/read/2430489/jumat-sedekah-berbagi-rezeki-nasi-kotak-ke-kaum-duafa</i></a><br>
+						<a
+							href="https://kitabisa.com/bigbukberbersama500a"><i>https://kitabisa.com/bigbukberbersama500a</i></a><br>
+						<a href="https://www.dompetdhuafa.org/"><i>https://www.dompetdhuafa.org/</i></a><br>
+					</td>
+					<td>
+						<a href="https://www.dompetdhuafa.org/"><i>https://www.dompetdhuafa.org/</i></a><br>
+						<a href="https://www.rumahzakat.org/"><i>https://www.rumahzakat.org/</i></a><br>
+						<a href="http://pusat.baznas.go.id/"><i>http://pusat.baznas.go.id/</i></a><br>
+						<a href="https://www.act.id/"><i>https://www.act.id//</i></a><br>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</div>
+	<!--penutup div.content-->
+	<div class="footer" id="footer">
+		<!--menampung beberapa elemen menjadi satu dengan memanggil class footer dgn id footer ditujukan pada css-->
+		<b style="font-size:20px;"><i>Peduli duafa || </i></b> Jl. Raya Telang, Kec. Kamal, Bangkalan, Madura, Jawa
+		Timur 696162
+		<!--digunakan untuk format alamat yaitu dengan format bold dan italic-->
+		<div class="tempatSocmed">
+			<!--menampung beberapa elemen menjadi satu dengan memanggil class tempatSocmed ditujukan pada css, digunakan untuk footer-->
+			<img class='gbrFooter' src='./images/fb.png' alt="pic">
+			<!--gambar sosmed fb-->
+			<img class='gbrFooter' src='./images/g.png' alt="pic">
+			<!--gambar sosmed G+-->
+			<img class='gbrFooter' src='./images/tw.png' alt="pic">
+			<!--gambar sosmed twitter-->
+			<img class='gbrFooter' src='./images/yt.png' alt="pic">
+			<!--gambar sosmed youtube-->
+			<img class='gbrFooter' src='./images/ig.png' alt="pic">
+			<!--gambar sosmed instagram-->
+		</div>
+		<!--penutup div. tempatSocmed-->
+	</div>
+	<!--penutup div.footer-->
+</body>
+<!--penutup body-->
+
+</html>
+<!--penutup html-->

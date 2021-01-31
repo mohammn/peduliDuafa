@@ -1,0 +1,403 @@
+body{
+    background-color:#E0E5E8; /*digunakan untuk memberi warna background pada body*/
+    max-width:1000px; /*digunakan untuk mengatur lebar maksimal yaitu 1000px*/
+    margin-left:auto; /*digunakan untuk mengatur batas kiri margin dengan value auto*/
+    font-family:roboto; /*digunakan untuk memilih jenis font yaitu roboto*/
+    margin-right:auto; /*digunakan untuk memilih batas kanan margin dengan value auto*/
+}
+
+div.menuAtas{
+    background-color:white; /*digunakan untuk memberi warna background pada kotak menu*/
+    height:40px; /*digunakan untuk mengatur tinggi dari kotak*/
+    padding-top:10px; /*digunakan untuk mengatur spasi ruang atas pada konten sebesar 10px*/
+    padding-bottom:15px; /*digunakan untuk mengatur spasi ruang bawah pada konten sebesar 10px*/
+    font-size:14px; /*digunakan untuk mengatur ukuran font*/
+    font-weight:bold; /*digunakan untuk mengatur ketebalan text menjadi tebal*/
+    text-align:center; /*digunakan untuk mengatur perataan pada text menjadi rata tengah*/
+    width:1000px; /*digunakan untuk mengatur lebar dari kotak*/
+    position:fixed; /*digunakan untuk mengatur dari kotak atas agar tetap diatas walaupun di scrool kebawah*/
+    margin-top:-422px; /*digunakan untuk mengatur batas atas margin menu atas*/
+}
+
+div.kotakSlide{
+    width:1000px; /*digunakan untuk mengatur lebar dari kotak slide*/
+    height:400px; /*digunakan untuk mengatur tinggi dari kortak slide*/
+    margin-bottom:-80px; /*digunakan untuk mengatur batas bawah margin*/
+}
+
+a{
+    font-size:12px; /*digunakan untuk mengatur ukuran font*/
+}
+
+div.menuAtas a{
+    text-decoration:none; /*digunakan untuk membuat text decoration menjadi none*/
+    padding-right:10px; /*digunakan untuk membuat spasi kanan pada konten sebesar 10px*/
+    padding-left:10px; /*digunakan untuk membuat spasi  kiri pada konten sebesar 10px*/
+    padding-top:5px; /*digunakan untuk membuat spasi  atas pada konten sebesar 5px*/
+    padding-bottom:2px; /*digunakan untuk membuat spasi bawah pada konten sebesar 2px */
+    color:black; /*digunakan untuk memberi warna hitam*/
+}
+div.menuAtas a:hover{
+    background-color:#3CC091; /*digunakan untuk memberi warna background*/
+}
+
+.judul{
+    height:100%; /*digunakan untuk mengatur tinggi dari judul*/
+    width:30%; /*digunakan untuk mengatur lebar dari judul*/
+    margin-right:200px; /*digunakan untuk mengatur batas kanan margin judul */
+}
+.gbrSlide{
+    margin-top:57px; /*digunakan untuk mengatur batas atas margin gambar slide*/
+    width:100%; /*digunakan untuk mengatur lebar dari gambar slide*/
+    height:15%; /*digunakan untuk mengatur tinggi dari gambar slide*/
+    margin-bottom:-5px; /*digunakan untuk mengatur batas kanan margin gambar slide*/
+}
+
+div.menuBawah{
+    background-color:white; /*digunakan untuk mengatur warna background dari menu bawah*/
+    height:80px; /*digunakan untuk mengatur tinggi dari menu bawah*/
+    padding-top:10px; /*digunakan untuk membuat spasi atas pada konten sebesar 10px*/
+    padding-bottom:-20px; /*digunakan untuk membuat spasi atas pada konten sebasar -20px*/
+    font-size:14px; /*digunakan untuk mengatur ukuran font*/
+    font-weight:bold; /*digunakan untuk mengatur ketebalan dari font*/
+    text-align:center; /*digunakan untuk mengatur perataan pada text menjadi rata tengah*/
+    margin-top:none; /*digunakan untuk mengatur margin atas menjadi tidak ada*/
+}
+
+.gbrMenu{
+    width:6%; /*digunakan untuk mengatur lebar dari gambar menu*/
+    height:70%; /*digunakan untuk mengatur tinggi dari gambaar menu*/
+	
+	transition: all .2s ease; /*untuk mengatur kecepatan transisinya*/
+	transform: rotate(0deg); /*untuk mengatur rotasi awal*/
+}
+
+.gbrMenu:hover{
+	transform:rotate(45deg); /*untuk mengatur rotasi akhir*/
+}
+
+div.content{
+    margin-top:5px; /*digunakan untuk mengatur batas atas margin content*/
+    width:700px; /*digunakan untuk mengatur lebar dari content*/
+    height:1150px; /*digunakan untuk mengatur tinggi dari content*/
+    background-color:white; /*digunakan untuk mengatur warna background pada content*/
+    padding:20px; /*digunakan untuk membuat spasi pada content*/
+    float:center; /*digunakan untuk mengatur tata letak elemen menjadi rata tengah*/
+    
+}
+
+div.kotakContent{
+    padding: 10px; /*digunakan untuk membuat spasi antar konten pada kotak content*/
+    width:680px; /*digunakan untuk mengatur lebar kotak content*/
+    height:200px; /*digunakan untuk mengatur tinggi kotak content*/
+    border: 1px solid gray; /*digunakan untuk mengatur ketebalan dan warna pada border*/
+    margin-bottom:10px; /*digunakan untuk mengatur batas bawah margin kotak content*/
+    font-size:14px; /*digunakan untuk mengatur ukuran font*/
+}
+
+div.sidebar{
+    margin-top:5px; /*digunakan untuk mengatur batas atas margin sidebar*/
+    width:240px; /*digunakan untuk mengatur lebar sidebar*/
+    height:1170px; /*digunakan untuk mengatur tinggi sidebar*/
+    background-color:white; /*digunakan untuk mengatur warna background menjadi warna putih*/
+    padding-left:8px; /*digunakan untuk mengatur spasi antar konten sebelah kiri*/
+    padding-right:8px; /*digunakan untuk mengatur spasi antar konten sebelah kanan*/
+    padding-top:20px; /*digunakan untuk mengatur spasi antar konten sebelah atas*/
+    float:right; /*digunakan untuk mengatur tata letak elemen menjadi rata kanan*/
+}
+
+div.kotakSide{
+    margin-bottom:20px; /*digunakan untuk mengatur batas bawah margin kotak side*/
+    color:black; /*digunakan untuk memberi warna hitam pada kotak side*/
+    border: 1px solid #3CC091; /*digunakan untuk mengatur ketebalan dan warna pada border*/
+    padding-bottom:10px; /*digunakan untuk mengatur spasi antar konten bagian bawah*/
+    text-align:center; /*digunakan untuk mengatur perataan text menjadi rata tengah*/
+}
+
+div.kotakSide input{
+	margin-left:18px; /*digunakan untuk mengatur batas kiri margin input di dalam kotak side*/
+    text-align:center; /*digunakan untuk mengatur rata pada text menjadi rata tengah*/
+}
+
+div.judulSide{
+    background-color:#3CC091; /*digunakan untuk memberi warna background pada judul side*/
+    padding:5px; /*digunakan untuk mengatur spasi antar konten*/
+    color:white; /*digunakan untuk memberi warna pada judul side*/
+    font-weight:bold; /*digunakan untuk mengatur ketebalan text menjadi bold*/
+}
+
+div.kotakSideSlide{
+    margin-bottom:20px; /*digunakan untuk mengatur batas bawah margin kotak side slide*/
+    color:black; /*digunakan untuk memberi warna pada kotak side slide*/
+    border: 1px solid #3CC091; /*digunakan untuk mengatur ketebalan dan warna pada border*/
+    padding-bottom:0px; /*digunakan untuk mengatur spasi antar konten sebelah bawah*/
+    text-align:center; /*digunakan untuk mengatur perataan text menjadi rata tengah*/
+}
+
+div.judulSideSlide{
+    background-color:#3CC091; /*digunakan untuk memberi warna pada background*/
+    margin-bottom:-17px; /*digunakan untuk mengatur batas bawah margin*/
+    padding:5px; /*digunakan untuk mengatur spasi antar konten*/
+    color:white; /*digunakan untuk memberi warna */
+    font-weight:bold; /*digunakan untuk mengatur ketebalan text menjadi bold*/
+}
+
+.gbrPartner{
+    height:30%; /*digunakan untuk mengatur tinggi gbr partner*/
+    width:40%; /*digunakan untuk mengatur lebar gbr partner*/
+}
+
+div.footer{
+    background-color:#708090; /*digunakan untuk memberi warna pada background*/
+    font-size:12px; /*digunakan untuk mengatur ukuran dari font*/
+    padding:20px; /*digunakan untuk mengatur spasi antar konten*/
+    width:960px; /*dignakan untuk mengatur lebar dari footer*/
+    margin-top:10px; /*digunakan untuk mengatur batas bawah margin*/
+    
+}
+
+.gbrBukti{
+	height:100px; /*digunakan untuk mengatur tinggi*/
+	width:100px; /*digunakan untuk mengatur lebar*/
+}
+
+.gbrFooter{
+    height:70%; /*digunakan untuk mengatur tinggi dari gbrfoooter*/
+    width:15%; /*digunakan untuk mengatur lebar dari gbr footer*/
+}
+
+.gbrGalery{
+    height:70%; /*digunakan untuk mengatur tinggi gbr galery*/
+    width:70%; /*digunakan untuk mengatur lebar gbr galery*/
+}
+
+.tempatSocmed{
+    float:right; /*digunakan untuk mengatur tata letak elemen menjadi rata kanan*/
+    width:250px; /*digunakan untuk mengatur lebar dari tempat socmed*/
+    height:50px; /*digunakan untuk mengatur tinggi dari tempat socmed*/
+    text-align:left; /*digunakan untuk mengatur perataan text menjadi rata tengah*/
+}
+
+
+/*Mengatur Bagian Wadah agar gambar selanjutnya disembunyikan*/
+#slider{
+    overflow: hidden; /*digunakan untuk menyembunyikan gambar yang tidak di tampilkan*/
+    height:180px; /*digunakan untuk mengatur tinggi */
+    width:238px; /*digunakan untuk mengatur lebar*/
+    float:center; /*digunakan untuk mengatur tata letak elemen menjadi rata tengah*/
+    padding-top:-100px; /*digunakan untuk mengatur spasi antar konten sebelah atas*/
+}
+
+/*Mengatur Panjang Gambar Dan Juga Tata Letak Gambar !!!!*/
+#slider figure img{
+/*width ini 20% karena figurenya nanti yang ditampilkan hanya 20% dari 100%*/
+/*makanya harus 5 gambar*/
+    width: 20%; /*digunakan untuk mengatur lebar*/
+    float: left; /*digunakan untuk mengatur tata letak elemen menjadi rata kiri*/
+}
+
+/*Mengatur Wadah Figure Dan Juga Memberi Animasi Slideshow*/
+#slider figure{
+/*slidy adalah nama animasi yang dibuat*/
+    animation: slidy infinite 20s; 
+    /*width 500% karena menggunakan 5 gambar yang setiap gambarnya dibuat 100%*/
+    width: 500%; /*digunakan untuk mengatur lebar*/
+    position: relative; /*digunakan untuk mengatur posisi agar mengikuti elemen yang diatasnya*/
+}
+
+/*Membuat efek animasi slideshow dengan nama slidy*/
+@keyframes slidy{
+    0%{left:-17%;} /*digunakan menentukan jarak zoomnya*/
+    20%{left:-17%;} /*digunakan menentukan jarak zoomnya*/
+    25%{left:-117%;} /*digunakan menentukan jarak zoomnya*/
+    45%{left:-117%;} /*digunakan menentukan jarak zoomnya*/
+    50%{left:-217%;} /*digunakan menentukan jarak zoomnya*/
+    70%{left:-217%;} /*digunakan menentukan jarak zoomnya*/
+    75%{left:-317%;} /*digunakan menentukan jarak zoomnya*/
+    95%{left:-317%;} /*digunakan menentukan jarak zoomnya*/
+    100%{left:-417%;} /*digunakan menentukan jarak zoomnya*/
+}
+
+/*Mengatur Tinggi Gambar*/
+#slider img{
+    height:10%; /*digunakan untuk mengatur tinggi*/
+    width:90%; /*digunakan untuk mengatur lebar*/
+    padding-top:-100px; /*digunakan untuk mengatur spasi antar konten sebelah atas*/
+}
+
+
+
+/*Mengatur Bagian Wadah agar gambar selanjutnya disembunyikan*/
+#sliderUtama{
+    overflow: hidden; /*digunakan untuk menyembunyikan gambar yang tidak di tampilkan*/
+    height:320px; /*digunakan untuk mengatur tinggi*/
+    width:1000px;/*digunakan untuk mengatur lebar*/
+    float:center; /*digunakan untuk mengatur tata letak elemen menjadi rata tengah*/
+}
+
+/*Mengatur Panjang Gambar Dan Juga Tata Letak Gambar !!!!*/
+#sliderUtama figure img{
+/*width ini 20% karena figurenya nanti yang ditampilkan hanya 20% dari 100%*/
+/*makanya harus 5 gambar*/
+    width: 20%; /*digunakan untuk mengatur lebar*/
+    float: left; /*digunakan untuk mengatur tata letak elemen menjadi rata kiri*/
+}
+
+/*Mengatur Wadah Figure Dan Juga Memberi Animasi Slideshow*/
+#sliderUtama figure{
+/*slidy adalah nama animasi yang dibuat*/
+    animation: slid infinite 30s;
+    /*width 500% karena menggunakan 5 gambar yang setiap gambarnya dibuat 100%*/
+    width: 500%; /*digunakan untuk mengatur lebar*/
+    position: relative; /*digunakan untuk mengatur poisi sesuai dengan elemen yang di atasnya*/
+}
+
+/*Membuat efek animasi slideshow dengan nama slidy*/
+@keyframes slid{
+    0%{left:-4%;} /*digunakan menentukan jarak zoomnya*/
+    20%{left:-4%;} /*digunakan menentukan jarak zoomnya*/
+    25%{left:-104%;} /*digunakan menentukan jarak zoomnya*/
+    45%{left:-104%;} /*digunakan menentukan jarak zoomnya*/
+    50%{left:-204%;} /*digunakan menentukan jarak zoomnya*/
+    70%{left:-204%;} /*digunakan menentukan jarak zoomnya*/
+    75%{left:-304%;} /*digunakan menentukan jarak zoomnya*/
+    95%{left:-304%;} /*digunakan menentukan jarak zoomnya*/
+    100%{left:-404%;} /*digunakan menentukan jarak zoomnya*/
+} 
+
+/*Mengatur Tinggi Gambar*/
+#sliderUtama img{
+    height:10%; /*digunakan untuk mengatur tinggi*/
+    width:110%; /*digunakan untuk mengatur lebar*/
+    padding-top:-100px; /*digunakan untuk mengatur spasi antar konten sebelah atas*/
+}
+
+
+select{
+    margin-right: 30px; /*digunakan untuk mengatur batas kanan margin*/
+    border-radius:7px;
+    border-color:yellow;
+    background-color:#FFFA94;
+}
+
+input{
+	margin-bottom:5px; /*digunakan untuk mengatur batas bawah margin*/
+    margin-top:10px; /*digunakan untuk mengatur batas atas margin*/
+    margin-right:30px; /*digunakan untuk mengatur batas kiri margin*/
+    border-radius:7px;
+    border-color:yellow;
+    background-color:#FFFA94;
+}
+
+input[type=button]{
+    width:520px;
+    height:40px;
+    background-color:#f0f0f0;
+    border-color:#3CC091;
+    font-weight:bold;
+    
+}
+
+textarea{
+    border-radius:7px;
+    border-color:yellow;
+    background-color:#FFFA94;
+}
+
+button{
+    border-radius:7px;
+}
+
+
+.in{
+	margin-right:5px; /*digunakan untuk mengatur batas kiri margin*/
+    text-align:center
+}
+
+.pengingat2{
+    color:green; /*digunakan untuk memberi warna merah*/
+    margin-top:-7px; /*digunakan untuk mengatur batas atas margin*/
+    font-size:12px; /*digunakan untuk mengatur ukuran font*/
+}
+
+.pengingat{
+    color:red; /*digunakan untuk memberi warna merah*/
+    margin-top:-7px;/*digunakan untuk mengatur batas atas margin*/
+    font-size:12px; /*digunakan untuk mengatur ukuran font*/
+}
+
+td, th{
+	 border-bottom: 2px solid #3cc091; /*digunakan untuk mengatur border dan warnanya*/
+}
+
+th{
+	text-align: center; /*digunakan untuk mengatur rata tengah pada text*/
+}
+
+td{
+	padding:5px;  /*digunakan untuk mengatur spasi antar konten*/
+}
+
+fieldset a{
+    font-size : 11px;
+}
+
+#panel {
+    width:150px; /*digunakan untuk mengatur lebar*/
+    float:left; /*digunakan untuk mengatur tata letak elemen*/
+    height:200px; /*digunakan untuk mengatur tinggi*/
+    background:#3CC091; /*digunakan untuk mengatur warna pada background*/
+    position:fixed; /*digunakan untuk mengatur posisi*/
+    margin-left:-322px; /*digunakan untuk mengatur batas kiri margin*/
+    text-align:center; /*digunakan untuk mengatur rata tengah text*/
+    border:4px solid yellow; /*digunakan untuk mengatur border dan warna*/
+}
+
+#slideSamping{
+    padding-bottom:5px; /*digunakan untuk mengatur spasi antar konten sebelah bawah*/
+    padding-right:3px; /*digunakan untuk mengatur spasi antar konten sebelah kanan*/
+    height:20px; /*digunakan untuk mengatur tinggi*/
+    width:15px; /*digunakan untuk mengatur lebar*/
+    float:left; /*digunakan mengatur tata letak elemen sebelah kiri*/
+    margin-top:17px; /*digunakan untuk mengatur batas atas margin*/
+    background:red; /*digunakan untuk mengatur warna background*/
+    font:400 20px arial, Helvetica, sans-serif; /*digunakan untuk mengatur ukuran dan jenis font*/
+    color:black; /*digunakan untuk mengatur warna text*/
+    text-decoration:none; /*untuk mengatur dekorasi text untuk tidak ada*/
+    position:fixed; /*digunakan untuk mengatur posisi*/
+    left:0px; /*digunakan untuk mengatur kiri*/
+    border:2px solid red; /*digunakan untuk mengatur border dan warna*/
+}
+            
+#panel input{
+    width:85%; /*digunakan untuk mengatur lebar*/
+    margin-top:-5px; /*digunakan untuk mengatur batas atas margin*/
+    margin-left:5px; /*digunakan untuk mengatur batas kiri margin*/
+    margin-right:5px; /*digunakan untuk mengatur batas kanan margin*/
+    border-radius:7px;
+}
+#panel textarea{
+    margin-bottom:2px; /*digunakan untuk mengatur batas bwah margin*/
+    border-radius:7px;
+}
+
+#pengingatEror{
+    width:150px;
+    background-color:#3cc091; /*digunakan untuk mengatur warna pada background*/
+    text-align:center; /*digunakan untuk mengatur rata tengah text*/
+    font-size:11px; /*digunakan untuk mengatur ukuran font*/
+    float:left;
+    position:fixed;
+    margin-left:-200px;
+    margin-top:-330px;
+    border:4px solid yellow; /*digunakan untuk mengatur border dan warna*/
+}
+#pengingatEror ol{
+    text-align:left;
+}
+
+#berhasil{
+    background-color:green; /*digunakan untuk mengatur warna pada background*/
+    text-align:center; /*digunakan untuk mengatur rata tengah pada text*/
+}
+
