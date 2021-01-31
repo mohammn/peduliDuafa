@@ -1,2 +1,2 @@
 # peduliDuafa
-Tampilan web dengan HTML biasa dan sederhana
+Tampilan web tentan web peduli duafa dengan HTML biasa dan sederhana
